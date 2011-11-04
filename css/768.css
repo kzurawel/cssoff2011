@@ -1,0 +1,171 @@
+/* 768px and up (iPad!) */
+#prizes div {
+    height: 25em;
+}
+
+#prizes #spacecamp:hover img, #prizes #tvvcr:hover img {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+}
+#prizes #skateboard:hover img, #prizes #keyboard:hover img {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+}
+
+#beacontestant > div {
+    width: 46%;
+    float: right;
+    margin: 2em 0 0 4%;
+}
+#timer {
+    padding: 0.6em 0 0;
+    background-position: center top;
+    background-size: 100%;
+    width: 100%;
+}
+#beacontestant form {
+    width: 46%;
+    float: left;
+    margin: 2em 4% 0 0;
+}
+#beacontestant > div, #beacontestant form {
+    margin-bottom: 8em;
+}
+#beacontestant input, #beacontestant select {
+    padding: 0 0 0 0.4em;
+    margin-bottom: 0.8em;
+}
+#beacontestant #submitentry {
+    width: 60%;
+    padding-bottom: 38.61%;
+}
+#beacontestant footer {
+    clear: both;
+    margin: 4em auto 0;
+    position: relative;
+    width: 80%;
+    z-index: 1;
+}
+#beacontestant footer:before {
+    content: '';
+    background: #72b1c6;
+    background: rgba(23, 52, 61, 0.1);
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    top: 3em;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (min-width: 960px) {
+    header h1 {
+        width: 560px;
+        height: 446px;
+        padding-bottom: 0;
+    }
+    h2 { margin-top: 0; font-size: 3.89em; letter-spacing: 0.06em; }
+    body > header span { font-size: 22px; }
+    #obstacles h3, #prizes h3, #beacontestant h3 {
+        font-size: 40px;
+    }
+    #obstacles ul li {
+        height: 14em;
+    }
+    #obstacles ul li a {
+        padding-top: 12.6em;
+        background-size: auto 11.4em;
+    }
+    #obstacles div {
+        padding-bottom: 36em;
+        margin-top: 6em;
+    }
+    #obstacles #hamster {
+        padding-bottom: 34em;
+    }
+    #obstacles div:before {
+        width: 27em;
+        height: 27em;
+        top: 18em;
+    }
+    #obstacles #downhatch:before {
+        height: 31em;
+        width: 24em !important;
+    }
+    #obstacles #sundaeslide:before {
+        height: 31em;
+        width: 20em !important;
+        top: 16em;
+    }
+    #obstacles div h5 {
+        margin-top: 0.8em;
+    }
+    #prizes div {
+        height: auto;
+        overflow: hidden;
+    }
+    #prizes #spacecamp {
+        margin-bottom: -10em;
+    }
+    #prizes #keyboard {
+        margin-top: 18em;
+    }
+    #prizes #tvvcr {
+        margin-top: 3em;
+    }
+    #prizes #spacecamp img {
+        width: 350px;
+        height: 371px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #skateboard img {
+        width: 390px;
+        height: 224px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #keyboard img {
+        width: 388px;
+        height: 146px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #tvvcr img {
+        width: 329px;
+        height: 345px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #timer {
+        width: 386px;
+        height: 300px;
+        padding-top: 75px;
+        font-size: 140px;
+    }
+    #ticking {
+        font-size: 40px;
+        letter-spacing: 0.1em;
+    }
+    #beacontestant input, #beacontestant select {
+        font-size: 1.2em;
+    }
+    #beacontestant h4 {
+        font-size: 20px;
+    }
+    #beacontestant footer p, #beacontestant footer address {
+        font-size: 14px;
+    }
+}

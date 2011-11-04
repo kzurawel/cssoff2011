@@ -1,0 +1,168 @@
+/* 480px and up */
+h2,h3,h4,h5 {
+    font-weight: normal;
+}
+
+#toplink {
+    display: inline;
+}
+
+#obstacles ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 22em;
+}
+#obstacles ul li {
+    display: block;
+    width: 27%;
+    height: 8em;
+    margin: 0.3em 1%;
+    float: left;
+    background: #80b238;
+    padding: 2%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+}
+#obstacles ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 6em;
+    background-size: auto 6em;
+}
+#obstacles ul li.active {
+    background-color: #eef13f;
+}
+#obstacles .active a {
+    color: #fe6638;
+}
+#thetankbutton a {
+    background: url('../img/thetank-small.png') no-repeat center top;
+}
+#sundaeslidebutton a {
+    background: url('../img/sundaeslide-small.png') no-repeat center top;
+}
+#hamsterbutton a {
+    background: url('../img/hamster-small.png') no-repeat center top;
+}
+#downhatchbutton a {
+    background: url('../img/downhatch-small.png') no-repeat center top;
+}
+#pickitbutton a {
+    background: url('../img/pickit-small.png') no-repeat center top;
+}
+#wringerbutton a {
+    background: url('../img/wringer-small.png') no-repeat center top;
+}
+#sundaeslide,#hamster,#downhatch,#pickit,#wringer {
+    display: none; /* to be changed in JS */
+}
+#obstacles div {
+    background: none;
+    height: 20em;
+    padding-top: 0;
+    margin-bottom: -20em;
+    position: relative;
+    overflow: hidden;
+    top: -42em;
+}
+#obstacles div:before {
+    content: '';
+    width: 38%;
+    height: 20em;
+    overflow: hidden;
+    display: block;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1em;
+}
+#obstacles div h4, #obstacles div h5 {
+    display: block;
+    text-align: left;
+    margin-left: 42%;
+}
+#thetank:before {
+    background: url('../img/thetank.png') no-repeat left center;
+}
+#obstacles #thetank h4 {
+    margin-top: 2em;
+}
+#sundaeslide:before {
+    background: url('../img/sundaeslide.png') no-repeat left center;
+    width: 29% !important;
+}
+#obstacles #sundaeslide h4 {
+    margin-top: 2em;
+}
+#sundaeslide h4, #sundaeslide h5 {
+    margin-left: 34% !important;
+}
+#hamster:before {
+    background: url('../img/hamster.png') no-repeat left center;
+}
+#obstacles #hamster h4 {
+    margin-top: 1.2em;
+}
+#downhatch:before {
+    background: url('../img/downhatch.png') no-repeat left center;
+    width: 30% !important;
+}
+#downhatch h4, #downhatch h5 {
+    margin-left: 36% !important;
+}
+#obstacles #downhatch h4 {
+    margin-top: 2.4em;
+}
+#pickit:before {
+    background: url('../img/pickit.png') no-repeat left center;
+}
+#obstacles #pickit h4 {
+    margin-top: 2.6em;
+}
+#wringer:before {
+    background: url('../img/wringer.png') no-repeat left center;
+}
+#obstacles #wringer h4 {
+    margin-top: 2.2em;
+}
+#prizes div {
+    width: 49.9%;
+    height: 18em;
+    float: left;
+}
+#skateboard img {
+    margin: 17.5% auto 17%;
+}
+#keyboard img {
+    margin: 22% auto;
+}
+#beacontestant {
+    clear: both;
+}
+#timer {
+    width: 50%;
+    padding-bottom: 43.18%;
+}
+
+#beacontestant footer p {
+    width: 80%;
+    margin: 0 auto 1em;
+}
+#visit address {
+    display: block;
+    width: 40%;
+    margin: 1em 5%;
+    float: left;
+}
+#collophon {
+    clear: both;
+}

@@ -1,0 +1,111 @@
+    header h1 {
+        width: 560px;
+        height: 446px;
+        padding-bottom: 0;
+    }
+    h2 { margin-top: 0; font-size: 3.89em; letter-spacing: 0.06em; }
+    body > header span { font-size: 22px; }
+    #obstacles h3, #prizes h3, #beacontestant h3 {
+        font-size: 40px;
+    }
+    #obstacles ul li {
+        height: 14em;
+    }
+    #obstacles ul li a {
+        padding-top: 12.6em;
+        background-size: auto 11.4em;
+    }
+    #obstacles div {
+        padding-bottom: 36em;
+        margin-top: 6em;
+    }
+    #obstacles #hamster {
+        padding-bottom: 34em;
+    }
+    #obstacles div:before {
+        width: 360px !important;
+        height: 414px !important;
+        top: 18em;
+    }
+    #obstacles #downhatch:before {
+        width: 360px !important;
+    }
+    #obstacles #sundaeslide:before {
+        top: 16em;
+        width: 360px !important;
+    }
+    #obstacles div h5 {
+        margin-top: 0.8em;
+    }
+    #prizes div {
+        height: auto;
+        overflow: hidden;
+    }
+    #prizes #spacecamp {
+        margin-bottom: -10em;
+    }
+    #prizes #keyboard {
+        margin-top: 18em;
+    }
+    #prizes #tvvcr {
+        margin-top: 3em;
+    }
+    #prizes #spacecamp img {
+        width: 350px;
+        height: 371px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #skateboard img {
+        width: 390px;
+        height: 224px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #keyboard img {
+        width: 388px;
+        height: 146px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #prizes #tvvcr img {
+        width: 329px;
+        height: 345px;
+        display: block;
+        margin: 0 auto 2em;
+    }
+    #timer {
+        width: 386px;
+        height: 300px;
+        padding-top: 75px;
+        font-size: 140px;
+    }
+    #ticking {
+        font-size: 40px;
+        letter-spacing: 0.1em;
+    }
+    #beacontestant footer {
+        background: none;
+    }
+    #beacontestant footer:after {
+        content: '';
+        background: url('../img/knlogo.png') no-repeat center top;
+        width: 134px;
+        height: 85px;
+        position: absolute;
+        top: 0;
+        left: 317px;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    #beacontestant input, #beacontestant select {
+        font-size: 1.2em;
+    }
+    #beacontestant h4 {
+        font-size: 20px;
+    }
+    #beacontestant footer p, #beacontestant footer address {
+        font-size: 14px;
+    }
+

@@ -1,0 +1,249 @@
+/* 640px and up */
+nav ul li {
+    padding: 0.5em 1em;
+}
+
+body > header {
+    padding-top: 2em;
+    position: relative;
+}
+body > header:after {
+    content: '';
+    background: url('../img/bluetexture.png') repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+body > header:before {
+    content: '';
+    background: url('../img/headersplat.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+header h1 {
+    width: 50%;
+    padding-bottom: 40.64%;
+    margin-top: 0;
+}
+
+#obstacles {
+    position: relative;
+    z-index: 0;
+}
+#obstacles:before {
+    content: '';
+    background: url('../img/orangetexture.png') repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+#obstacles h3, #prizes h3, #beacontestant h3 {
+    width: auto;
+    position: relative;
+}
+#obstacles h3:after, #prizes h3:after, #beacontestant h3:after {
+    content: '';
+    background: url('../img/checker.gif') repeat-x left center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6.8em;
+    right: 0;
+    z-index: -1;
+}
+#obstacles h3:after {
+    width: 680px;
+}
+#prizes h3:after {
+    width: 780px;
+}
+#beacontestant h3:after {
+    width: 520px;
+}
+#obstacles ul {
+    margin-top: 2em;
+    width: 50%;
+    float: left;
+}
+#obstacles ul li {
+    position: relative;
+    z-index: 1;
+    width: 42%;
+    height: 10em;
+    margin: 9px 2%;
+}
+#obstacles ul li a {
+    position: relative;
+    z-index: 2;
+    padding-top: 7.8em;
+    background-size: auto 7em;
+}
+#obstacles ul li:after {
+    content: '';
+    background: url('../img/greentexture.png') repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+#obstacles ul li.active:after {
+    background: url('../img/yellowtexture.png') repeat;
+}
+#obstacles div {
+    height: auto;
+    padding-bottom: 22em;
+    width: 48%;
+    margin: 0 1%;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+#obstacles div:before {
+    width: 18em;
+    height: 18em;
+    top: 18em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center bottom;
+}
+#obstacles div:after {
+    content: '';
+    background: url('../img/greensplat.png');
+    width: 236px;
+    height: 206px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: block;
+    z-index: -1;
+}
+#obstacles div h4, #obstacles div h5 {
+    text-align: center;
+    margin-left: 0;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    letter-spacing: 0.1em;
+}
+#obstacles #sundaeslide:before {
+    height: 20em;
+    width: 14em !important;
+    top: 16em;
+}
+#sundaeslide h4, #sundaeslide h5, #downhatch h4, #downhatch h5 {
+    margin-left: 0 !important;
+}
+#obstacles #downhatch:before {
+    width: 15em !important;
+    height: 20em;
+    top: 18em;
+}
+#obstacles #downhatch h4, #obstacles #pickit h4, #obstacles #wringer h4 {
+    margin-top: 2em;
+}
+#obstacles #hamster {
+    padding-bottom: 18.6em;
+}
+#obstacles #hamster:before {
+    top: 18em;
+}
+#obstacles #pickit:before {
+    top: 16em;
+}
+
+#prizes {
+    position: relative;
+    z-index: 0;
+}
+#prizes:before {
+    content: '';
+    background: url('../img/greentexture.png') repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+#prizes h3:after {
+    left: 4.4em;
+}
+#beacontestant, #collophon {
+    position: relative;
+    z-index: 0;
+}
+#beacontestant:before, #collophon:before {
+    content: '';
+    background: url('../img/bluetexture.png') repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+#beacontestant h3:after {
+    left: 10.8em;
+}
+#beacontestant input {
+    background: #fe6636 url('../img/orangetexture.png') repeat;
+}
+#beacontestant select {
+    background: url('../img/dropdown.png') no-repeat right top, url('../img/orangetexture.png') repeat #fe6636;
+}
+#beacontestant #submitentry {
+    width: 40%;
+    padding-bottom: 28.61%;
+    background: transparent url('../img/submit.png') no-repeat center center;
+}
+#beacontestant footer div {
+    overflow: hidden;
+}
+#beacontestant footer p, #visit address {
+    width: 41%;
+    margin: 0 4.5% 1em;
+    float: left;
+}
+#beacontestant #visit {
+    clear: both;
+}
+#beacontestant footer p:nth-child(even), #visit address:nth-child(even) {
+    text-align: right;
+}
+#beacontestant footer p:nth-child(odd), #visit address:nth-child(odd) {
+    text-align: left;
+}
+#timer {
+    padding: 1em 0 0;
+    text-indent: 0;
+    margin: 0 auto;
+    height: 2.2em;
+    width: 4em;
+    font-family: "DigitaldreamFatRegular", sans-serif;
+    color: #f5eb00;
+    text-align: center;
+    background: url('../img/timerbg.png') no-repeat center center;
+    background-size: auto;
+    font-size: 120px;
+    text-shadow: 6px 8px 0 #000;
+}
